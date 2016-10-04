@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2898f90b-3bad-4bf3-a8b5-f51953c8d5c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.env.example" />
-    </list>
+    <list default="true" id="2898f90b-3bad-4bf3-a8b5-f51953c8d5c3" name="Default" comment="" />
     <ignored path="labk.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -160,12 +157,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475596992193</updated>
-      <workItem from="1475596996351" duration="225000" />
+      <workItem from="1475596996351" duration="533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225000" />
+    <option name="totallyTimeSpent" value="533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
