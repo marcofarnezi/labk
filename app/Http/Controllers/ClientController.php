@@ -18,4 +18,19 @@ class ClientController extends Controller
     {
         return Client::create($request->all());
     }
+
+    public function show($id)
+    {
+        return Client::find($id);
+    }
+
+    public function destroy($id)
+    {
+        Client::find($id)->delete();
+    }
+
+    public function update(Request $request)
+    {
+        
+    }
 }
