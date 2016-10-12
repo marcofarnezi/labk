@@ -2,6 +2,8 @@
 
 namespace CodeProject\Providers;
 
+use CodeProject\Repositories\ClientRepository;
+use CodeProject\Repositories\ClientRepositoryEloquent;
 use Illuminate\Support\ServiceProvider;
 
 class CodeProjectRepositoryProvider extends ServiceProvider
@@ -23,9 +25,9 @@ class CodeProjectRepositoryProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->add->bind(
-            \CodePRoject\Repositories\ClientRepository::class,
-            \CodePRoject\Repositories\ClientRepositoryEloquent::class
+        $this->app->bind(
+            ClientRepository::class,
+            ClientRepositoryEloquent::class
         );
     }
 }
