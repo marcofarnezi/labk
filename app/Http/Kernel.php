@@ -1,5 +1,4 @@
 <?php
-
 namespace CodeProject\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
@@ -57,5 +56,6 @@ class Kernel extends HttpKernel
         'oauth-user' => \LucaDegasperi\OAuth2Server\Middleware\OAuthUserOwnerMiddleware::class,
         'oauth-client' => \LucaDegasperi\OAuth2Server\Middleware\OAuthClientOwnerMiddleware::class,
         'check-authorization-params' => \LucaDegasperi\OAuth2Server\Middleware\CheckAuthCodeRequestMiddleware::class,
+        'CheckProjectOwner' => \CodeProject\Http\Middleware\CheckProjectOwner::class,
     ];
 }

@@ -26,4 +26,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function projects()
+    {
+        return $this->belongsToMany(Project::class, 'project_member', 'member_id', 'project_id');
+    }
 }
