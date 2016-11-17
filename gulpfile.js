@@ -1,6 +1,12 @@
-const elixir = require('laravel-elixir');
+const elixir = require('laravel-elixir'),
+      liveReload = require('gulp-livereload'),
+      clean = require('gulp-clean'),
+      gulp = require('gulp');
 
-require('laravel-elixir-vue');
+var config = {
+    assets_path: './resources/assets',
+    build_path: '.public/build'
+};
 
 /*
  |--------------------------------------------------------------------------

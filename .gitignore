@@ -1,3 +1,5 @@
 vendor/
 .env
 .idea/
+resources/bower_components
+node_modules
