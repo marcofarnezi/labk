@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.1",
+    "rimraf": "^2.4.0",
     "gulp-livereload": "^3.8.0"
   }
 }
